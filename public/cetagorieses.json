@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "image": "https://e2k9ube.cloudimg.io/v7/edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/2/full_43267.jpg?width=856&height=482&func=cover",
+        "name": "Buses",
+        "Description": "A bus is a road vehicle that carries significantly more passengers than an average car or van. It is most commonly used in public transport, but is also in use for charter purposes, or through private ownership."
+    },
+    {
+        "id": 2,
+        "image": "https://www.motorcycle.com/blog/wp-content/uploads/2022/12/121522-2023-BMW-M-1000-R-f-633x388.png",
+        "name": "Motor Cycle",
+        "Description": "If you're thinking about getting a motorcycle or you are simply wondering what the benefits are to riding a motorcycle, you’re not alone. Many times I’ve often asked myself this and have done a lot of research about the subject."
+    },
+    {
+        "id": 3,
+        "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Cars",
+        "Description": "CarRider is a safe and efficient way to streamline the dismissal of car riding students at the end of the school day. Learn about our fully automated and our manual products. Hear from principals, teachers and parents about the impact their CarRiderPro systems have had on their schools and how easy it is to implement."
+    }
+]
