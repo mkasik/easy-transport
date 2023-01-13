@@ -1,11 +1,11 @@
 import React from 'react';
-
+import emailjs from 'emailjs-com'
 const Contract = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_mx0e2b4', 'template_sndmb6m', e.target, 'qYTC39fN0BVe_QduB')
             .then((result) => {
-                toast.success('Message sent successfully')
+                alert.success('Message sent successfully')
                 e.target.reset();
             }, (error) => {
                 console.log(error.text);
