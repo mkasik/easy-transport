@@ -1,11 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Main from './Main/Main';
+import Header from './Pages/Header/Header';
 
+const router = createBrowserRouter([
+  {
+    path:'/',
+    element:<Main></Main>,
+    children:[
+      {
+        path:'/',
+        element:<Header></Header>
+      }
+    ]
+  }
+])
 function App() {
   return (
-    <div className="App">
-    Hello Chamok 
-    </div>
+    <RouterProvider router={router}>
+
+    </RouterProvider>
+   
+   
   );
 }
 
